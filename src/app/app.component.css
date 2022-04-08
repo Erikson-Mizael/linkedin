@@ -31,7 +31,14 @@
 
 .contatos{
     display: flex;
-    
+    justify-content: space-evenly;
+}
+
+.mensagens{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
 }
 
 @keyframes piscar{

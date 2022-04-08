@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 
 import {MenuModule} from 'primeng/menu';
 import {DialogModule} from 'primeng/dialog';
+import {MessageModule} from 'primeng/message';
 // -----
 
 @NgModule({
@@ -20,7 +21,8 @@ import {DialogModule} from 'primeng/dialog';
     AppRoutingModule,
     BrowserAnimationsModule,
     MenuModule,
-    DialogModule
+    DialogModule,
+    MessageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

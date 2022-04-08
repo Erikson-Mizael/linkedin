@@ -1,0 +1,32 @@
+<div class="painel-topo">
+  <h2 class="titulo">Erikson M Batista <a href="#" href="https://github.com/" target="_blank" class="destaque"><i
+        class="pi pi-github"></i></a></h2>
+  <p class="descricao">Desenvolvedor junior <span class="destaque" (click)="mostrar_modal()">#sobre</span> </p>
+  <p-dialog header="Especificações" [(visible)]="display" position="top-right" [transitionOptions]="'100ms'"
+    [breakpoints]="{'960px': '75vw', '640px': '100vw'}" [style]="{width: '50vw'}">
+    <ng-template pTemplate="header">
+      <h3>Conhecimentos <i class="pi pi-book"></i> !</h3>
+    </ng-template>
+    <hr>
+    <br>
+    Crio API's com <strong>SpringBoot</strong> para integrações e envios de arquivos. <br>
+    Desenvolvo ferramentas online para consultas especificas em banco de dados e no "tempo vago" uso do
+    <strong>SQL(Oracle)</strong> para criar relatório customizado. <br>
+    A segurança e controle de usuários de minhas aplicações e endpoints, vem de configurações <strong>OAth2</strong> com
+    <strong>Keycloak.</strong> <br>
+    Este frontend está sendo desenvolvido em <strong>Angular/CSS/Primefaces</strong> e hospedado na
+    <strong>Vercel.</strong> <br>
+    <br>
+    <hr>
+    <div class="contatos">
+      <p>(27) 9 9889-4816</p>
+      <p>erikskon_mizael@hotmail.com</p>
+    </div>
+  </p-dialog>
+</div>
+
+<p>Pagina em desenvolvimento <i class="pi pi-spin pi-spinner"></i> !</p>
+
+<!-- <p-menu [model]="items"></p-menu> -->
+
+<router-outlet></router-outlet>

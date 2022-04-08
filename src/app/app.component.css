@@ -29,6 +29,11 @@
     animation: piscar .5s infinite ease-in-out alternate;
 }
 
+.contatos{
+    display: flex;
+    
+}
+
 @keyframes piscar{
     from {
         color: aliceblue;

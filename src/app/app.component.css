@@ -52,11 +52,24 @@
 
 }
 
+@keyframes animar-movimento {
+    from {
+        color: rgb(0, 97, 182);
+    }
+
+    to {
+        color: var(--primary-color);
+    }
+
+}
+
 .opcao-flutuante{
     position: absolute;
-    width: 8vw;
-    height: 8vw;
-    background-color: black;
+    width: 6vw;
+    height: 6vw;
+    background-color: rgb(129, 129, 129);
     border-radius: 5vw;
-    transition: .1s;
+    transition: .05s;
+    opacity: 90%;
 }
+

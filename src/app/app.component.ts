@@ -20,8 +20,8 @@ export class AppComponent implements OnInit {
   @HostListener('document:mousemove', ['$event'])
   onMouseMove(e: MouseEvent): void {
     if (this.clicado) {
-      this.bola[0].style.left = e.clientX - 30 + "px";
-      this.bola[0].style.top = e.clientY - 30 + "px";
+      this.bola[0].style.left = e.clientX - 20 + "px";
+      this.bola[0].style.top = e.clientY - 20 + "px";
 
     }
 
